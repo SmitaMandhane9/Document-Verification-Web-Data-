@@ -48,14 +48,54 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 # Findings
 
-1. 23% of total users have attempted the verification process multiple times, indicating potential issues with document quality, user understanding or system usability.
+1.  23% of total users have attempted the verification process multiple times, indicating potential issues with document quality, user understanding or system usability.
 
       <img width="241" alt="image" src="https://github.com/user-attachments/assets/b5ed0a8d-cdd2-4ea2-aa63-83a4791330e0" />
 
       <img width="145" alt="image" src="https://github.com/user-attachments/assets/69ab18d5-4e6f-479b-80fe-974835a8313d" />
 
+2.  As the number of user attempts increases, we observe a decrease in the clearance rate within the dataset. Please note that, for this analysis, only weekly data is available for May. Therefore, the graph below displays data from June to October to understand the impact more accurately
 
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/e81b077a-2784-4c3a-b41d-9857a9aebb53" />
+       <img width="375" alt="image" src="https://github.com/user-attachments/assets/8c20233d-d5bc-41b7-a7a3-c2ea086f9171" />
 
-<img width="643" alt="image" src="https://github.com/user-attachments/assets/12c76b85-e461-468f-af69-ae6d97c588a4" />
+3.  If we look into “Consider” result, we observe a higher rejection rate at the overall level
+
+      <img width="324" alt="image" src="https://github.com/user-attachments/assets/1df8b6d6-223b-40a4-8ee1-855ff1bb23af" />
+
+4.  Upon further analysis, the primary reasons for failure appear to be as follows
+   
+      <img width="547" alt="image" src="https://github.com/user-attachments/assets/fafb8d11-1da5-4a01-bdf7-f7f416ffae6e" />
+
+      Analysis confirmed that the majority of cases were not considered further due to issues related to image integrity, such as the quality of submitted            images and conclusive document quality.
+
+5.  The national identity card is the most commonly used document for user verification.
+
+      <img width="383" alt="image" src="https://github.com/user-attachments/assets/501166d1-3b6f-411f-a73c-23b72107cb06" />
+
+      <img width="172" alt="image" src="https://github.com/user-attachments/assets/16fcaa55-491c-4540-a080-57cb8900b362" />
+
+6.  Below chart shows the bottom 10 countries with the lowest clearance rates.
+
+      <img width="183" alt="image" src="https://github.com/user-attachments/assets/15185865-2e28-4d9f-a8d9-cf5cc0b36b29" />
+
+
+# Action items
+
+      - Provide better instructions to users on how to submit clear, high-quality images
+      - Make the system easier to use to reduce no. of repeat attempts
+      - Improve the verification process to handle document better for country who has low clearance rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
