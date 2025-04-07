@@ -50,8 +50,9 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 1. 23% of total users have attempted the verification process multiple times, indicating potential issues with document quality, user understanding or system usability.
 
-<img width="241" alt="image" src="https://github.com/user-attachments/assets/b5ed0a8d-cdd2-4ea2-aa63-83a4791330e0" />
+      <img width="241" alt="image" src="https://github.com/user-attachments/assets/b5ed0a8d-cdd2-4ea2-aa63-83a4791330e0" />
 
+      <img width="145" alt="image" src="https://github.com/user-attachments/assets/69ab18d5-4e6f-479b-80fe-974835a8313d" />
 
 
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/e81b077a-2784-4c3a-b41d-9857a9aebb53" />
