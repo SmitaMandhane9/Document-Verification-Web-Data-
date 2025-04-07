@@ -24,27 +24,27 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 3. Key Columns and Their Descriptions
 
-a. visual_authenticity	-> Asserts whether visual, non-textual elements are correct given the type of document.
-
-b. image_integrity ->	Asserts whether the document was of sufficient quality to verify.
-
-c. data_validation -> Asserts whether algorithmically validatable elements are correct (e.g., MRZ lines and document numbers).
-
-d. data_consistency ->	Asserts whether data represented in multiple places on the document is consistent (e.g., MRZ lines vs. OCR text).
-
-e. data_comparison ->	Asserts whether data on the document is consistent with data provided by the applicant (via application form or API).
-
-f. police_record ->	Asserts whether the document has been identified as lost, stolen, or otherwise compromised.
-
-g. compromised_document -> Asserts whether the image of the document has been found in the internal database of compromised documents.
+      a. visual_authenticity	-> Asserts whether visual, non-textual elements are correct given the type of document.
+      
+      b. image_integrity ->	Asserts whether the document was of sufficient quality to verify.
+      
+      c. data_validation -> Asserts whether algorithmically validatable elements are correct (e.g., MRZ lines and document numbers).
+      
+      d. data_consistency ->	Asserts whether data represented in multiple places on the document is consistent (e.g., MRZ lines vs. OCR text).
+      
+      e. data_comparison ->	Asserts whether data on the document is consistent with data provided by the applicant (via application form or API).
+      
+      f. police_record ->	Asserts whether the document has been identified as lost, stolen, or otherwise compromised.
+      
+      g. compromised_document -> Asserts whether the image of the document has been found in the internal database of compromised documents.
 
 4. Sub-result Field Definitions
 
-❌ Rejected – The check could not be processed due to poor quality or unsupported documents.
-
-⚠️ Suspected – The document is suspected to be fraudulent.
-
-🟡 Caution – Other checks failed, but not necessarily indicating fraud (e.g., mismatched applicant names).
+      ❌ Rejected – The check could not be processed due to poor quality or unsupported documents.
+      
+      ⚠️ Suspected – The document is suspected to be fraudulent.
+      
+      🟡 Caution – Other checks failed, but not necessarily indicating fraud (e.g., mismatched applicant names).
 
 
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/e81b077a-2784-4c3a-b41d-9857a9aebb53" />
