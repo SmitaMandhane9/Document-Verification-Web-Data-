@@ -13,11 +13,11 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 1. Dataset Duration:
 
-May 23 – May 31 (~2 weeks)
-June 2017 – October 2017
+      May 23 – May 31 (~2 weeks)
+      June 2017 – October 2017
 
 2. Clearance Rate Definition:
-The clearance rate is defined as the number of customers who pass the document verification process (i.e., records that return “clear” as output), divided by the total number of customers who attempt the process.
+      The clearance rate is defined as the number of customers who pass the document verification process (i.e., records that return “clear” as output), divided by the total number of customers who attempt the process.
 
 Clearance Rate = Clear Output Count / Total Attempt Users
 
