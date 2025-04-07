@@ -1,4 +1,4 @@
-# Document-Verification-Web-Data
+# Document-Verification (Web Data)
 
 
 # Project Title
@@ -11,18 +11,18 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 # Dataset Details
 
-1. Dataset Duration:
+**1. Dataset Duration:**
 
       May 23 – May 31 (~2 weeks)
       June 2017 – October 2017
 
-2. Clearance Rate Definition:
+**2. Clearance Rate Definition:**
    
       The clearance rate is defined as the number of customers who pass the document verification process (i.e., records that return “clear” as output),              divided by the total number of customers who attempt the process.
 
       Clearance Rate = Clear Output Count / Total Attempt Users
 
-3. Key Columns and Their Descriptions
+**3. Key Columns and Their Descriptions**
 
       a. visual_authenticity	-> Asserts whether visual, non-textual elements are correct given the type of document.
       
@@ -38,13 +38,15 @@ In the banking industry, ensuring the authenticity and completeness of customer 
       
       g. compromised_document -> Asserts whether the image of the document has been found in the internal database of compromised documents.
 
-4. Sub-result Field Definitions
+**4. Sub-result Field Definitions**
 
       ❌ Rejected – The check could not be processed due to poor quality or unsupported documents.
       
       ⚠️ Suspected – The document is suspected to be fraudulent.
       
       🟡 Caution – Other checks failed, but not necessarily indicating fraud (e.g., mismatched applicant names).
+
+# Findings
 
 
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/e81b077a-2784-4c3a-b41d-9857a9aebb53" />
