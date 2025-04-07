@@ -18,9 +18,9 @@ In the banking industry, ensuring the authenticity and completeness of customer 
 
 2. Clearance Rate Definition:
    
-      The clearance rate is defined as the number of customers who pass the document verification process (i.e., records that return “clear” as output), divided by the total number of customers who attempt the process.
+      The clearance rate is defined as the number of customers who pass the document verification process (i.e., records that return “clear” as output),              divided by the total number of customers who attempt the process.
 
-Clearance Rate = Clear Output Count / Total Attempt Users
+      Clearance Rate = Clear Output Count / Total Attempt Users
 
 3. Key Columns and Their Descriptions
 
